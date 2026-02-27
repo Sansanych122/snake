@@ -1,0 +1,28 @@
+#gameContaner{
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+#gameBoard{
+    border: 3px solid;
+}
+#scoreText{
+    font-family: "Permanent Marker", cursive;
+    font-size: 50px;
+}
+#resetBtn{
+    font-family: "Permanent Marker", cursive;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    background-color: hsl(169, 100%, 30%);
+}
+#resetBtn:hover{
+    background-color: hsl(169, 100%, 35%);
+}
+#resetBtn:active{
+    background-color: hsl(169, 100%, 40%);
+}
